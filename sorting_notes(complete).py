@@ -1,4 +1,3 @@
-
 list = ["abe", "bev", "cam", "dan", "eve", "flo"]
 
 # Swapping
@@ -31,9 +30,9 @@ for pos in range(len(my_list)):
 print(my_list)
 
 import random
+
 random.shuffle(my_list)
 print(my_list)
-
 
 # Insertion Sort
 # iterate through list starting at 1 through the end of list
@@ -54,8 +53,4 @@ for pos in range(1, len(random_list)):
     # of the last scanned position
     random_list[scan_pos + 1] = key_val
 
-
 print(random_list)
-
-
-
